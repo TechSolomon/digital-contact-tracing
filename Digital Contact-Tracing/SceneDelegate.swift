@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Digital Contact-Tracing
+//  Digital Contact Tracing
 //
 //  Created by Solomon on 3/18/20.
 //  Copyright © 2020 TechSolomon. All rights reserved.

@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6792201C242341C800BA46BA /* Digital Contact-Tracing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Contact-Tracing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6792201C242341C800BA46BA /* Contact Tracing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact Tracing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6792201F242341C800BA46BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67922021242341C800BA46BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		67922023242341C800BA46BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		6792201D242341C800BA46BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6792201C242341C800BA46BA /* Digital Contact-Tracing.app */,
+				6792201C242341C800BA46BA /* Contact Tracing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			);
 			name = "Digital Contact-Tracing";
 			productName = "Digital Contact-Tracing";
-			productReference = 6792201C242341C800BA46BA /* Digital Contact-Tracing.app */;
+			productReference = 6792201C242341C800BA46BA /* Contact Tracing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techsolomon.Digital-Contact-Tracing";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Contact Tracing";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techsolomon.Digital-Contact-Tracing";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Contact Tracing";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
