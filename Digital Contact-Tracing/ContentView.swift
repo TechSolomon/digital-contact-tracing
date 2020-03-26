@@ -15,12 +15,16 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             
-            Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)).edgesIgnoringSafeArea(.all)
+            Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)).edgesIgnoringSafeArea(.all)
             
             VStack {
                 Text("Digital Contact Tracing")
                     .font(.system(size: 34))
                     .fontWeight(.heavy)
+                
+                Text("User location application to track the spread of COVID-19.")
+                .font(.system(size: 18))
+                    .fontWeight(.light)
                 
                 Picker(selection: $pickerSelectedItem, label: Text("")) {
                     Text("Left")
